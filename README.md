@@ -1,126 +1,97 @@
-<!--
-  STILL TO DO — see SETUP-CHECKLIST.md for full steps:
-  - Portfolio badge: commented out below (search YOUR_PORTFOLIO_URL) — add once you have a link
-  - Repo links for both projects under "What I'm building" — plain text for now, turn into
-    markdown links once each project has a public repo
-  - Stats card (self-hosted pair) and contribution snake: both commented out below until
-    their setup steps (Vercel deploy / first Action run) are done — see SETUP-CHECKLIST.md
-  GitHub username, LinkedIn, ToolChain, Database, and Status are already filled in.
--->
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Frogman2745/Frogman2745/main/dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Frogman2745/Frogman2745/main/light.svg">
-  <img alt="Nicholas Marnocha — profile banner" src="https://raw.githubusercontent.com/Frogman2745/Frogman2745/main/dark.svg">
+  <img alt="Nicholas Marnocha — software, AI, product operations, and PC technology" src="https://raw.githubusercontent.com/Frogman2745/Frogman2745/main/dark.svg">
 </picture>
 
-<br><br>
+<br>
 
-I'm an operations professional turned software builder. Five years running logistics,
-compliance documentation, and financial administration in fast-moving, high-accountability
-environments — most notably coordinating multi-aircraft aerial firefighting operations for
-CAL FIRE, where I reconciled load manifests against actual retardant shipments and kept
-dispatch, pilots, and incident command in sync under time pressure. I now build software
-that applies the same discipline: systems where the record has to be exactly right, because
-someone downstream is depending on it — a court, an auditor, a counterparty.
+# Nicholas Marnocha
 
-I use Claude and agentic AI workflows daily to move faster on both the building and the
-paperwork, and I'm certified across six Google and Anthropic AI programs.
+**Full-Stack Developer · Technical Product Operations · AI · PC Hardware**
 
-## What I'm building
+I build software and product systems at the intersection of **engineering, AI, operations, and real-world workflows**.
 
-**Co-Parenting Communication Platform**
-A free-to-use, court-compliant alternative to TalkingParents and OurFamilyWizard. I'm
-building the parts that matter most for something meant to hold up in family court:
-tamper-evident, timestamped message logs and exportable documentation designed as
-evidence, not just a chat history. I researched how parenting orders are actually
-administered so the product fits how courts, attorneys, and parents each need to use it,
-and I'm building the revenue model around institutional and third-party channels so it
-can stay free for the people actually using it.
+My background combines four years of mission-critical aviation operations with CAL FIRE, hands-on full-stack product development through **Froghaus Studios**, and current Computer Science study at **Western Governors University**. I’m especially interested in technical product roles across PC hardware, gaming technology, AI computing, and consumer electronics.
 
-**Collectibles Trading & Marketplace Platform**
-A marketplace for trading cards, collectibles, and other tradeable goods, with a tiered
-commission engine (floor fee on small trades, percentage-based mid-tier, sliding rate
-above a threshold) and Stripe Connect for payment processing and payout reconciliation.
-Every trade produces a signed, timestamped bill of sale — Ed25519 device-keypair signing —
-which is the same "the record has to survive scrutiny" thinking as the co-parenting app,
-applied to commerce instead of custody. I evaluated money-transmitter and escrow
-requirements up front so the compliance model is right from day one, not bolted on later.
+I work with **TypeScript, Python, SQL, React, Next.js, Supabase/PostgreSQL, Vercel, REST APIs, Git/GitHub, and AI-agent/LLM tooling**.
 
-## Background
+## Current focus
 
-- 5+ years in operations: expense reconciliation, commission tracking, vendor/carrier
-  coordination, certificate and license renewals, AR/AP
-- CAL FIRE — helicopter base operations and multi-aircraft logistics (Blackhawk, Super
-  Huey, S-2 tanker, OV-10, C-130), reconciling load tickets/manifests against actual
-  deliveries and coordinating real-time reroutes under changing fire conditions
-- Independently architect, build, and ship both of the products above — product strategy,
-  system design, and day-to-day execution, solo
-- Daily user of Claude and agentic AI tooling for development velocity, documentation, and
-  automating repetitive data-handling and QA work
+- Building and shipping customer-facing software through **Froghaus Studios**
+- Studying **B.S. Computer Science at WGU**
+- Developing deeper expertise in **AI engineering and AI-integrated software systems**
+- Building a **premium AMD X870E motherboard competitive-analysis case study** covering ASUS ROG, MSI MPG, and Gigabyte AORUS
+- Exploring technical product operations, product management, software, and AI roles in the PC hardware and gaming ecosystem
 
-## Toolchain
+## Selected work
+
+### Froghaus Studios
+I design and build production websites and software platforms for small businesses, owning projects from requirements and architecture through development, deployment, and client handoff.
+
+**Stack:** Next.js · React · TypeScript · Supabase/PostgreSQL · Vercel · GitHub · APIs · AI-assisted development
+
+### Premium X870E Product Analysis
+A product-management case study comparing the **ASUS ROG Crosshair X870E Hero**, **MSI MPG X870E Carbon WiFi**, and **Gigabyte X870E AORUS Master**.
+
+The project uses sourced market/spec data, customer personas, weighted feature scoring, price sensitivity analysis, and GTM recommendations to answer a practical product question:
+
+> When is a premium motherboard price defensible when technically strong competitors discount aggressively?
+
+### Accord — Co-Parenting Communication Platform
+A product concept focused on structured communication, record integrity, and court-ready documentation. I designed the product architecture, neutrality model, and professional-portal monetization concept.
+
+### Collectibles Trading & Marketplace Platform
+A peer-to-peer marketplace concept using **Stripe Connect**, React prototypes, digitally signed trade contracts, an offline dual-QR device handshake, and **Ed25519** device-key signing.
+
+## Operations background
+
+Before moving into software, I managed high-tempo aviation operations for **CAL FIRE**, coordinating mixed aircraft fleets including Blackhawks, Super Hueys, S-2 tankers, OV-10s, and C-130s.
+
+That work included:
+- aircraft and crew sequencing
+- real-time dispatch/resource tracking
+- shipment and manifest reconciliation
+- equipment and material logistics
+- discrepancy escalation
+- cross-functional coordination under time pressure
+
+That operational background shapes how I build products today: clear requirements, reliable systems, traceable decisions, and disciplined execution.
+
+## Technical stack
 
 <p>
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+<img src="https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="SQL"/>
 <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
-<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
-<img src="https://img.shields.io/badge/Stripe-635BFF?style=for-the-badge&logo=stripe&logoColor=white" alt="Stripe"/>
+<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white" alt="Next.js"/>
+<img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase"/>
+<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white" alt="Vercel"/>
 <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git"/>
-<img src="https://img.shields.io/badge/REST_APIs-005571?style=for-the-badge&logo=fastapi&logoColor=white" alt="REST APIs"/>
-<img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white" alt="Claude"/>
+<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white" alt="AWS"/>
 </p>
 
-## AI certifications
+## AI & technology training
 
-Google — AI Essentials · AI Fundamentals · Google AI Specialization
-Anthropic / Claude — Claude 101 · AI Fluency · Agentic AI
-*In progress: AMD AI Developer Program, IBM AI/Development coursework, Harvard University coursework*
+- **AWS** — Generative AI and AI Agents with Amazon Bedrock, Professional Certificate
+- **Google** — Google AI, Professional Certificate
+- **Google** — AI Essentials Specialization
+- **Anthropic Academy** — Claude 101 · AI Fluency: Framework & Foundations
+- **AMD Academy** — AI Developer Program, in progress
 
-<!-- ============================================================
-     STATS CARD. The streak card below is a public service and will
-     render immediately once this file is live. The stats/top-langs
-     pair needs your own self-hosted instance first (SETUP-CHECKLIST.md
-     Phase 2) — left commented out rather than pointing at a fake URL,
-     since an uncommented broken image looks worse than no image.
-     Once deployed: uncomment the block below and swap in your real
-     Vercel URL in place of YOUR-INSTANCE.
-     ============================================================ -->
-<p>
-  <img src="https://streak-stats.demolab.com?user=Frogman2745&theme=dark&hide_border=true&background=0F172A&stroke=22D3EE&ring=7C3AED&fire=10B981&currStreakLabel=F8FAFC" width="100%" alt="GitHub streak stats"/>
-</p>
-<!--
-<p>
-  <img src="https://YOUR-INSTANCE.vercel.app/api?username=Frogman2745&show_icons=true&hide_rank=true&theme=transparent&title_color=22D3EE&text_color=F8FAFC&icon_color=10B981&border_color=7C3AED" width="49%" alt="GitHub stats"/>
-  <img src="https://YOUR-INSTANCE.vercel.app/api/top-langs/?username=Frogman2745&layout=compact&theme=transparent&title_color=22D3EE&text_color=F8FAFC&border_color=7C3AED" width="49%" alt="Top languages"/>
-</p>
--->
+## Education
 
-<!-- ============================================================
-     CONTRIBUTION SNAKE. Commented out — the "output" branch this
-     points to doesn't exist until snake.yml has run at least once
-     (SETUP-CHECKLIST.md Phase 3). An uncommented block here would
-     show two broken-image icons on a brand-new repo. Once the
-     Action has run green, delete the comment-marker lines
-     immediately above and below the picture block that follows.
-     ============================================================ -->
-<!--
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Frogman2745/Frogman2745/output/dark-snake.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Frogman2745/Frogman2745/output/light-snake.svg">
-  <img alt="contribution snake" src="https://raw.githubusercontent.com/Frogman2745/Frogman2745/output/dark-snake.svg">
-</picture>
--->
+**Western Governors University** — B.S. Computer Science, enrolled  
+**University of Alaska Fairbanks** — B.S. Homeland Security & Emergency Management  
+**Santa Ana College** — A.S. Fire Science
 
 ## Connect
 
-Currently exploring AI-integrated software engineering roles — always happy to talk
-about the products above, or anything operations-meets-AI.
-
 <p>
-<a href="mailto:n.marnocha27@gmail.com"><img src="https://img.shields.io/badge/Email-0A101F?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>&nbsp;&nbsp;
+<a href="https://froghausstudios.com"><img src="https://img.shields.io/badge/Portfolio-10B981?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
 <a href="https://www.linkedin.com/in/nicholas-m-a36726260/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<!-- Portfolio badge goes here once you have a URL — see SETUP-CHECKLIST.md.
-<a href="YOUR_PORTFOLIO_URL"><img src="https://img.shields.io/badge/Portfolio-10B981?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio"/></a>
--->
+<a href="mailto:n.marnocha27@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
+
+**Open to:** technical product operations · product management · software engineering · AI engineering · PC hardware / gaming technology
