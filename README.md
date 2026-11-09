@@ -21,10 +21,21 @@ I work with **TypeScript, Python, SQL, React, Next.js, Supabase/PostgreSQL, Verc
 - Building and shipping customer-facing software through **Froghaus Studios**
 - Studying **B.S. Computer Science at WGU**
 - Developing deeper expertise in **AI engineering and AI-integrated software systems**
+- Building **[Tankerline](https://tankerline.fly.dev/)**, a wildfire aircraft-allocation copilot drawn from my CAL FIRE air base work
 - Building a **premium AMD X870E motherboard competitive-analysis case study** covering ASUS ROG, MSI MPG, and Gigabyte AORUS
 - Exploring technical product operations, product management, software, and AI roles in the PC hardware and gaming ecosystem
 
 ## Selected work
+
+### Tankerline — Wildfire Initial-Attack Aircraft Allocation · [Live demo](https://tankerline.fly.dev/)
+A decision-support copilot for the minutes when an air base decides which airtankers go to which fire. A deterministic **OR-Tools CP-SAT** solver proposes a plan under California's supervision rules, sets it beside standard closest-resource practice, explains every departure, and stops at a human approval it cannot skip. A language model is never allowed to assign an aircraft.
+
+- **0** hard-constraint violations across 120 seeded scenarios, checked by a validator independent of the solver
+- Scored against my own blind calls as a former air base manager: the solver agrees on **1 of 3**, and the page shows the two it gets wrong
+- 711 tests in CI plus browser tests against the production Docker image; the live site is re-checked every six hours
+
+**Stack:** Python · OR-Tools CP-SAT · FastAPI · vanilla JS + SVG · Docker · Fly.io · Playwright  
+*Synthetic scenarios, not for operational use; 72 of 104 operational parameters are placeholders awaiting expert review. Repository private.*
 
 ### Froghaus Studios
 I design and build production websites and software platforms for small businesses, owning projects from requirements and architecture through development, deployment, and client handoff.
